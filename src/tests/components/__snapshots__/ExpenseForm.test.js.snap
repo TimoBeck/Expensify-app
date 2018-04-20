@@ -36,6 +36,7 @@ exports[` should render error for invalid subission 1`] = `
       horizontalMargin={0}
       id="date"
       initialVisibleMonth={null}
+      inputIconPosition="before"
       isDayBlocked={[Function]}
       isDayHighlighted={[Function]}
       isOutsideRange={[Function]}
@@ -50,9 +51,11 @@ exports[` should render error for invalid subission 1`] = `
       onFocusChange={[Function]}
       onNextMonthClick={[Function]}
       onPrevMonthClick={[Function]}
+      openDirection="down"
       orientation="horizontal"
       phrases={
         Object {
+          "calendarLabel": "Calendar",
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
@@ -90,6 +93,7 @@ exports[` should render error for invalid subission 1`] = `
       screenReaderInputMessage=""
       showClearDate={false}
       showDefaultInputIcon={false}
+      weekDayFormat="dd"
       withFullScreenPortal={false}
       withPortal={false}
     />
@@ -138,6 +142,7 @@ exports[` should render expenseForm correclty 1`] = `
       horizontalMargin={0}
       id="date"
       initialVisibleMonth={null}
+      inputIconPosition="before"
       isDayBlocked={[Function]}
       isDayHighlighted={[Function]}
       isOutsideRange={[Function]}
@@ -152,9 +157,11 @@ exports[` should render expenseForm correclty 1`] = `
       onFocusChange={[Function]}
       onNextMonthClick={[Function]}
       onPrevMonthClick={[Function]}
+      openDirection="down"
       orientation="horizontal"
       phrases={
         Object {
+          "calendarLabel": "Calendar",
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
@@ -192,6 +199,7 @@ exports[` should render expenseForm correclty 1`] = `
       screenReaderInputMessage=""
       showClearDate={false}
       showDefaultInputIcon={false}
+      weekDayFormat="dd"
       withFullScreenPortal={false}
       withPortal={false}
     />
@@ -240,6 +248,7 @@ exports[` should render expenseForm correclty with data 1`] = `
       horizontalMargin={0}
       id="date"
       initialVisibleMonth={null}
+      inputIconPosition="before"
       isDayBlocked={[Function]}
       isDayHighlighted={[Function]}
       isOutsideRange={[Function]}
@@ -254,9 +263,11 @@ exports[` should render expenseForm correclty with data 1`] = `
       onFocusChange={[Function]}
       onNextMonthClick={[Function]}
       onPrevMonthClick={[Function]}
+      openDirection="down"
       orientation="horizontal"
       phrases={
         Object {
+          "calendarLabel": "Calendar",
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
@@ -294,6 +305,7 @@ exports[` should render expenseForm correclty with data 1`] = `
       screenReaderInputMessage=""
       showClearDate={false}
       showDefaultInputIcon={false}
+      weekDayFormat="dd"
       withFullScreenPortal={false}
       withPortal={false}
     />

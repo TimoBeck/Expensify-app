@@ -30,8 +30,10 @@ export class ExpenseListFilters extends React.Component{
         return(
     <div>
         <input type="text" 
-        value={this.props.filters.text} onChange={this.onTextChange}/>
-        <select value={this.props.filters.sortBy} 
+        value={this.props.filters.text} 
+        onChange={this.onTextChange}/>
+        <select 
+        value={this.props.filters.sortBy} 
         onChange={this.onSortChange}>
             <option value="Date">Date</option>
             <option value="amount">Amount</option>
@@ -65,3 +67,4 @@ setEndDate: (endDate) => dispatch(setEndDate(endDate))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ExpenseListFilters);
+
