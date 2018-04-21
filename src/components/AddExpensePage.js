@@ -23,7 +23,7 @@ render () {
     }
 }
 
-const mapDispatchToProps = () => ({
+const mapDispatchToProps = (dispatch) => ({
 addExpense: (expense) => dispatch(addExpense(expense))
     });
 
