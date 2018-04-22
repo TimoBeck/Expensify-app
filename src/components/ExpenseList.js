@@ -7,7 +7,7 @@ export const ExpenseList = (props) =>(
     <div>
 
 {
-    props.expenses.lenght === 0 ? (
+    props.expenses.length === 0 ? (
 <p>No expenses</p>
 
 ) : (
